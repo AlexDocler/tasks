@@ -2045,7 +2045,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
         title: this.title,
         description: this.description
       }).then(function (resp) {
-        _this2.taskList.push(resp);
+        _this2.taskList.push(resp.data);
       });
     },
     updateTask: function updateTask(id, data) {

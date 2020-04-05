@@ -92,7 +92,7 @@
                     title: this.title,
                     description: this.description,
                 }).then(resp => {
-                    this.taskList.push(resp);
+                    this.taskList.push(resp.data);
                 });
             },
             updateTask(id, data) {
