@@ -7,13 +7,21 @@
         "laravel"
     ],
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:AlexDocler/lib-tasks-manager.git"
+        }
+    ],
     "require": {
         "php": "^7.2.5",
+        "AlexDocler/lib-tasks-manager": "master",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^1.0",
         "guzzlehttp/guzzle": "^6.3",
         "laravel/framework": "^7.0",
-        "laravel/tinker": "^2.0"
+        "laravel/tinker": "^2.0",
+        "laravel/ui": "^2.0"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
